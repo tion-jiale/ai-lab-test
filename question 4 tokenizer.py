@@ -1,4 +1,4 @@
-iimport streamlit as st
+import streamlit as st
 import nltk
 from PyPDF2 import PdfReader
 
