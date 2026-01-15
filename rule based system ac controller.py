@@ -96,7 +96,7 @@ DEFAULT_RULES: List[Dict[str, Any]] = [
     {
         "name": "Too cold \u2192 turn off",
         "priority": 85,
-        "conditions": [,
+        "conditions": [
             ["temperature", "<=", 22]
         ],
         "action": {"ac_mode": "OFF", 
